@@ -15,11 +15,14 @@ const count = ref(0)
       <div class="text-xl font-medium text-black">ChitChat</div>
       <p class="text-gray-500">You have a new message!</p>
     </div>
+    <div class="read-the-docs">Demo Scss</div>
   </LayoutDefault>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+$textColor: #888;
+
 .read-the-docs {
-  color: #888;
+  color: $textColor;
 }
 </style>
